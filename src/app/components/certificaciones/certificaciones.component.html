@@ -1,0 +1,4 @@
+<h2><fa-icon [icon]="faAward"></fa-icon>Certificaciones</h2>
+<ul>
+    <li *ngFor="let item of certificaciones | keyvalue"><strong>{{ item.value.certificado }}</strong> <br /><em>{{item.value.organismo}}</em></li>
+</ul>

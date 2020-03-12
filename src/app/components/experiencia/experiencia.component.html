@@ -1,0 +1,4 @@
+<h2><fa-icon [icon]="faBuilding"></fa-icon>Experiencia</h2>
+<ul>
+    <li *ngFor="let item of experiencias | keyvalue"><strong>{{ item.value.puesto }} </strong><em>{{item.value.empresa}} </em><small>({{item.value.fechainicio}} - {{item.value.fechafin}})</small></li>
+</ul>

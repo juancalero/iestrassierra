@@ -1,0 +1,4 @@
+<h2><fa-icon [icon]="faChalkboardTeacher"></fa-icon>Publicaciones</h2>
+<ul>
+    <li *ngFor="let item of publicaciones | keyvalue"><strong>{{ item.value.titulo }}</strong>  <a href="www.google.com">+info</a></li>
+</ul>

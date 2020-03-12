@@ -1,0 +1,4 @@
+<h2><fa-icon [icon]="faBookReader"></fa-icon>Cursos</h2>
+<ul>
+    <li *ngFor="let item of cursos | keyvalue"><strong>{{ item.value.titulo }}</strong> - <em>{{item.value.organismo}}</em><br /> <small>{{item.value.descripcion}}</small></li>
+</ul>

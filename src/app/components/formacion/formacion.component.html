@@ -1,0 +1,4 @@
+<h2><fa-icon [icon]="faUserGraduate"></fa-icon>Formación</h2>
+<ul> 
+    <li *ngFor="let item of formacion | keyvalue"><strong>{{ item.value.titulo }}</strong><br /><em>{{item.value.centro}}</em> </li>
+</ul>

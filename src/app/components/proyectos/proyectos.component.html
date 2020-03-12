@@ -1,0 +1,4 @@
+<h2><fa-icon [icon]="faLaptopCode"></fa-icon>Proyectos</h2>
+<ul>
+    <li *ngFor="let item of proyectos | keyvalue"><strong>{{ item.value.titulo }}</strong> - <em>{{item.value.cliente}}</em><br /><small>{{item.value.descripcion}}</small></li>
+</ul>
